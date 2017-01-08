@@ -4,6 +4,7 @@
   "version": "1.4.2",
   "homepage": "https://github.com/feathersjs/feathers-socketio",
   "main": "lib/",
+  "types":["./index.d.ts", "./client.d.ts"],
   "keywords": [
     "feathers",
     "feathers-plugin"
