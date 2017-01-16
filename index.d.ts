@@ -8,5 +8,9 @@ type FeathersSockeOptions =
   FeatherSocketCallback;
 
 
-export default
-  function (options: FeathersSockeOptions, config?: FeathersSockeOptions): () => void;
+declare function e(
+    options: FeathersSockeOptions,
+    config?: FeathersSockeOptions
+  ): () => void;
+
+export = e;
