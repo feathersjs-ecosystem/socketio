@@ -9,7 +9,7 @@ type FeathersSockeOptions =
 
 
 declare function feathersSocketIO(
-    options: FeathersSockeOptions,
+    options?: FeathersSockeOptions,
     config?: FeathersSockeOptions
   ): () => void;
 
