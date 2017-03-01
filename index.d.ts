@@ -8,9 +8,11 @@ type FeathersSockeOptions =
   FeatherSocketCallback;
 
 
-declare function e(
+declare function feathersSocketIO(
     options: FeathersSockeOptions,
     config?: FeathersSockeOptions
   ): () => void;
 
-export = e;
+declare namespace feathersSocketIO {}
+
+export = feathersSocketIO;
