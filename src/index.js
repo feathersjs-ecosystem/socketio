@@ -21,7 +21,8 @@ export default function (options, config) {
         let io = this.io;
 
         if (!io) {
-          io = this.io = socketio.listen(server, options);
+          const port = options && options.port;
+          io = this.io = socketio.listen(port || server, options);
 
           io.use(function (socket, next) {
             socket.feathers = { provider: 'socketio' };
