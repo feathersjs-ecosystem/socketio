@@ -1,6 +1,6 @@
 # feathers-socketio
 
-> _Important:_ For Feathers v3.0.0 or later use `@feathersjs/socketio` instead of `feathers-socketio`.
+> _Important:_ For Feathers v3.0.0 or later use `@feathersjs/socketio` module instead of `feathers-socketio`.
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/feathersjs/feathers-socketio.svg)](https://greenkeeper.io/)
 
