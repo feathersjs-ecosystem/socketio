@@ -1,5 +1,7 @@
 # feathers-socketio
 
+> _Important:_ For Feathers v3.0.0 or later use `@feathersjs/socketio` module instead of `feathers-socketio`.
+
 [![Greenkeeper badge](https://badges.greenkeeper.io/feathersjs/feathers-socketio.svg)](https://greenkeeper.io/)
 
 [![Build Status](https://travis-ci.org/feathersjs/feathers-socketio.png?branch=master)](https://travis-ci.org/feathersjs/feathers-socketio)

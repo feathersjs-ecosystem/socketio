@@ -20,6 +20,10 @@ export default function (port, options, config) {
   return function () {
     const app = this;
 
+    if (app.version && app.version >= '3.0.0') {
+      throw new Error(`feathers-socketio is not compatible with Feathers v${app.version}. Use the latest version of @feathersjs/socketio instead.`);
+    }
+
     app.configure(socket('io'));
 
     Proto.mixin({
