@@ -60,8 +60,7 @@ app.use('/todos', {
 
 ```js
 import io from 'socket.io-client';
-import feathers from 'feathers/client';
-import socketio from '@feathersjs/socketio/client';
+import feathers, { socketio } from '@feathersjs/client';
 
 const socket = io('http://path/to/api');
 const app = feathers()
