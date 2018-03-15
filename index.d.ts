@@ -1,4 +1,4 @@
-import 'socket.io';
+import * as SocketIO from 'socket.io';
 
 type FeatherSocketCallback =
   (io: any) => void;
