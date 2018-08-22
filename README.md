@@ -1,13 +1,10 @@
 # @feathersjs/socketio
 
-[![Greenkeeper badge](https://badges.greenkeeper.io/feathersjs/socketio.svg)](https://greenkeeper.io/)
+> __Important:__ The code for this module has been moved into the main Feathers repository at [feathersjs/feathers](https://github.com/feathersjs/feathers) ([package direct link](https://github.com/feathersjs/feathers/tree/master/packages/socketio)). Please open issues and pull requests there.
 
 [![Build Status](https://travis-ci.org/feathersjs/socketio.png?branch=master)](https://travis-ci.org/feathersjs/socketio)
-[![Test Coverage](https://codeclimate.com/github/feathersjs/socketio/badges/coverage.svg)](https://codeclimate.com/github/feathersjs/socketio/coverage)
-[![Dependency Status](https://img.shields.io/david/feathersjs/socketio.svg?style=flat-square)](https://david-dm.org/feathersjs/socketio)
-[![Download Status](https://img.shields.io/npm/dm/@feathersjs/socketio.svg?style=flat-square)](https://www.npmjs.com/package/@feathersjs/socketio)
 
-> The Feathers Socket.io real-time API provider
+The Feathers Socket.io real-time API provider
 
 ## Installation
 
